@@ -31,7 +31,7 @@ public class Union {
 			System.out.println(array2[j++]);
 			
 		}
-//	
+	
 
 	}
 
