@@ -1,0 +1,32 @@
+package helloworld;
+
+public class Union {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int array[]= {1,2,3,4,5,8};
+		int array2[]= {2,4,5,6,8};
+		int m=array.length;
+		int n=array2.length;
+		int i=0;
+		int j=0;
+		while(i<m && j<n) {
+		if(array[i]<array2[j]) {
+//			System.out.println(array[i++]);
+			i++;
+		}
+		else if(array[i]>array2[j]) {
+//			System.out.println(array2[j++]);
+			j++;
+		}
+		else {
+			System.out.println(array2[j++]);
+			i++;
+		}
+		}
+//	
+//	
+
+	}
+
+}
